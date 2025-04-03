@@ -17,16 +17,16 @@ Calculating daily points and adding them to totalPoints.
 
 Each day, the player experiences 3 events (unless interrupted by danger). Possible events:
 
-###### A. Special Bird Sighting (10% Chance)
+#### A. Special Bird Sighting (10% Chance)
 
 A special bird appears (does not count as an event).
 
-###### B. Resource Discovery (Event Type 1)
+#### B. Resource Discovery (Event Type 1)
 
 The player finds a resource (e.g., "edible berries" in the Jungle).
 Points are added based on the resource's value.
 
-###### C. Animal Encounter (Event Type 2)
+#### C. Animal Encounter (Event Type 2)
 
 Friendly (70% chance): Just a description (e.g., "You see a friendly elephant").
 Dangerous (30% chance): The player must choose:
@@ -34,7 +34,7 @@ Fight (20% success chance) → Gain 25-60 points or lose 20-50 points.
 Run → Lose 5-15 points but escape.
 Hide → Skip event safely.
 
-###### D. Weather Hazard (Event Type 3)
+#### D. Weather Hazard (Event Type 3)
 
 A random weather event (e.g., "sandstorm") reduces points by 5-20.
 
